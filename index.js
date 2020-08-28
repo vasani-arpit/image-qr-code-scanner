@@ -3,7 +3,7 @@ const { spawn } = require('child_process');
 module.exports = (imagePath) => {
     return new Promise((resolve, reject) => {
         const pythonFile = path.join(__dirname, 'scanner.py')
-        const pythonImageToProcess = path.join(__dirname, imagePath)
+        const pythonImageToProcess = path.resolve(imagePath)
         console.log(`python3 ${pythonFile} --input ${pythonImageToProcess}`)
         const ls = spawn('python3', [pythonFile, '--input', pythonImageToProcess]);
         ls.stdout.on('data', async (data) => {
