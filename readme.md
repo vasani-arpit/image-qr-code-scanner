@@ -4,6 +4,9 @@
 
 An NPM package for node which takes image path and finds and decodes QR codes in it. The only package which supports/decodes multiple QR codes in a single image.
 
+![npm](https://img.shields.io/npm/v/image-qr-code-scanner?style=flat-square)
+![NPM](https://img.shields.io/npm/l/image-qr-code-scanner?style=flat-square)
+
 ## Features
 
 ✅ No dependencies (yes. literally none.)
@@ -12,7 +15,10 @@ An NPM package for node which takes image path and finds and decodes QR codes in
 
 ✅ Real world tested 
 
-## installation
+## Installation
+
+1. Install python 3 in server/machine
+1. Install requirements globally
 
 ## How to use it?
 
@@ -40,3 +46,6 @@ Several actually. all comes with it's own pros and cons
 - [qr-scanner](https://www.npmjs.com/package/qr-scanner) A web based QR code scanner
 - [QRCodeScanner](https://www.npmjs.com/package/qr-code-scanner) another web based QR code scanner ported from Java
 - [jsQR](https://github.com/cozmo/jsQR) this one can be used as both as node package and also as a web based node package
+
+## Special thanks !!
+Special thanks to [Pavan Mehta](https://github.com/pavanmehta91) he wrote initial python code.
