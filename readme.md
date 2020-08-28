@@ -9,7 +9,7 @@ An NPM package for node which takes image path and finds and decodes QR codes in
 
 ## Features
 
-✅ No dependencies (yes. literally none.)
+✅ No node dependencies (yes. literally none.)
 
 ✅ Scans multiple QR in one image
 
