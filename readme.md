@@ -1,4 +1,4 @@
-# QR Code Scanner
+# Image QR Code Scanner
 
 ![qr-code logo](https://user-images.githubusercontent.com/6497827/91564420-40b4a680-e95e-11ea-9a45-e8fc7084aa4a.png)
 
