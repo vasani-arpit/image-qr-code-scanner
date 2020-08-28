@@ -1,0 +1,26 @@
+{
+  "name": "qr-code-scanner",
+  "version": "0.1.1",
+  "description": "An NPM package for node which takes image path and finds and decodes QR codes in it. The only package which supports/decodes multiple QR codes in a single image.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasani-arpit/qr-code-scanner.git"
+  },
+  "keywords": [
+    "qr-code",
+    "scanning",
+    "qr",
+    "code",
+    "scanner"
+  ],
+  "author": "Arpit Vasani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasani-arpit/qr-code-scanner/issues"
+  },
+  "homepage": "https://github.com/vasani-arpit/qr-code-scanner#readme"
+}
