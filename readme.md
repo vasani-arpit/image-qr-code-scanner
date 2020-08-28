@@ -64,5 +64,7 @@ Several actually. all comes with it's own pros and cons
 - [QRCodeScanner](https://www.npmjs.com/package/qr-code-scanner) another web based QR code scanner ported from Java
 - [jsQR](https://github.com/cozmo/jsQR) this one can be used as both as node package and also as a web based node package
 
+None of the above can scan multiple QR codes from one image(I think. package may have been updated since I last tested).
+
 ## Special thanks !!
 Special thanks to [Pavan Mehta](https://github.com/pavanmehta91) he wrote initial python code.
