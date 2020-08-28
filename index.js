@@ -1,9 +1,8 @@
-//TODO: use this space to generate the spaghetti 
 const path = require('path');
 const { spawn } = require('child_process');
 module.exports = (imagePath) => {
     return new Promise((resolve, reject) => {
-        const pythonFile = path.join(__dirname, 'qrcode-scanner.py')
+        const pythonFile = path.join(__dirname, 'scanner.py')
         const pythonImageToProcess = path.join(__dirname, imagePath)
         console.log(`python3 ${pythonFile} --input ${pythonImageToProcess}`)
         const ls = spawn('python3', [pythonFile, '--input', pythonImageToProcess]);
