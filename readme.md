@@ -26,9 +26,21 @@ An NPM package for node which takes image path and finds and decodes QR codes in
 ## How to use it?
 
 ```javascript
+const imageScanner = require('image-qr-code-scanner')
+
+async function main() {
+    try {
+        let results = await imageScanner('./images/fileWithMultipleQRs.jpg')
+        console.log(results)
+    } catch (error) {
+        console.log(error)
+    }
+}
+main()
 ```
 
 ```typescript
+
 ```
 
 ## FAQ
