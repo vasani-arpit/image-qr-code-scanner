@@ -4,7 +4,7 @@ module.exports = (imagePath) => {
     return new Promise((resolve, reject) => {
         const pythonFile = path.join(__dirname, 'scanner.py')
         const pythonImageToProcess = path.resolve(imagePath)
-        console.log(`python3 ${pythonFile} --input ${pythonImageToProcess}`)
+        //console.log(`python3 ${pythonFile} --input ${pythonImageToProcess}`)
         const ls = spawn('python3', [pythonFile, '--input', pythonImageToProcess]);
         ls.stdout.on('data', async (data) => {
             //console.log(`stdout: ${data}`);
@@ -16,7 +16,7 @@ module.exports = (imagePath) => {
         });
 
         ls.on('close', (code) => {
-            console.log(`child process exited with code ${code}`);
+            //console.log(`child process exited with code ${code}`);
         });
     })
 }
