@@ -26,6 +26,7 @@ An NPM package for node which takes image path and finds and decodes QR codes in
 ## How to use it?
 
 ```javascript
+//JS
 const imageScanner = require('image-qr-code-scanner')
 
 async function main() {
@@ -40,6 +41,7 @@ main()
 ```
 
 ```typescript
+//TypeScript
 
 ```
 
