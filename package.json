@@ -1,6 +1,6 @@
 {
   "name": "image-qr-code-scanner",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An NPM package for node which takes image path and finds and decodes QR codes in it. The only package which supports/decodes multiple QR codes in a single image.",
   "main": "index.js",
   "scripts": {
