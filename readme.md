@@ -19,9 +19,9 @@ An NPM package for node which takes image path and finds and decodes QR codes in
 
 1. Install python3 and pip3 in server/machine
 1. Install requirements globally using
-        `pip3 install pyzbar opencv-python==4.2.0.34 argparse`
+        `pip3 install pyzbar opencv-python==4.3.0.38 argparse`
 1. make sure have following linux dependencies installed 
-        `apt install -y libzbar0 libsm6 libxext6 libxrender-dev`
+        `sudo apt install -y libzbar0 libsm6 libxext6 libxrender-dev`
 
 ## How to use it?
 
